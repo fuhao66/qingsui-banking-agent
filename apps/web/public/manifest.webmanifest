@@ -1,0 +1,14 @@
+{
+  "name": "青穗银行 AI 智能体",
+  "short_name": "青穗银行",
+  "description": "可解释、可审计的银行 AI 智能体演示平台",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eefaf3",
+  "theme_color": "#105a3d",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "/banking-agent-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

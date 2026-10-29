@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.local
+.env.public
+.env.tunnel
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local build and Codex artifacts
+.codex-finalizer/
+.pnpm-store/
+tmp/
+output/
+deliverables/
+tools/
+fintech.zip
+
+# Runtime data
+*.log
+data/
+*.db
+tools/cloudflared.exe
