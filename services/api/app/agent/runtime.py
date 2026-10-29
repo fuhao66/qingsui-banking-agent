@@ -1448,7 +1448,7 @@ async def create_run(
     if image_data_url:
         if not image_data_url.startswith(("data:image/png;base64,", "data:image/jpeg;base64,", "data:image/webp;base64,")):
             raise banking_service.domain_error(
-                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                status.HTTP_422_UNPROCESSABLE_ENTITY,
                 "UNSUPPORTED_EVIDENCE_IMAGE",
                 "证据图片仅支持 PNG、JPEG 或 WebP。",
             )
